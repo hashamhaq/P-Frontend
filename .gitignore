@@ -128,3 +128,21 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+
+
+# Node.js
+node_modules/
+npm-debug.log
+
+# Docker
+Dockerfile
+docker-compose.yml
+
+# Environment-specific
+.env
+.env.local
+
+# Logs and Temporary Files
+*.log
+*.tmp
